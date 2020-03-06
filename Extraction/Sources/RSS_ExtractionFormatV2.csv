@@ -1,0 +1,89 @@
+﻿,Name,Domain,SCOPE,Type,Rss,NTags
+0,A Stylish Moment,http://astylishmoment.com/,AU,"CBR,LIFE",http://astylishmoment.com/feed/,ASM
+1,ABC News Canberra,https://www.abc.net.au/news/canberra/,AU,"CBR,NEWS",https://www.abc.net.au/news/feed/8057234/rss.xml,ABCNC
+2,ACAT Judgements,https://www.acat.act.gov.au/,AU,"CBR,LAW",https://www.acat.act.gov.au/general/rss-feeds/judgments-rss,ACATJ
+3,ACT Apple Users Group,https://actapple.org.au/blog/?page_id=669,AU,"CBR,TECH",https://actapple.org.au/blog/?feed=rss2,ACTAUG
+4,ACT Deafness Resource Centre,https://www.actdrc.org.au/,AU,"CBR,HEALTH",https://www.actdrc.org.au/feed/,ACTDRC
+5,ACT Emergency Services Agency,http://esa.act.gov.au/,AU,"CBR,GOV",http://esa.act.gov.au/feed,ACTESA
+6,ACT Government Media Releases,https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/latest_directorate_media_releases,AU,"CBR,GOV",https://www.cmtedd.act.gov.au/open_government/functions/functionality/media_release_rss_feeds/latest_directorate_media_releases_rss,ACTGMR
+7,ACT Legislative Assembly Calendar,https://www.parliament.act.gov.au/in-the-assembly/sitting-calendar,AU,"CBR,PARL",https://www.parliament.act.gov.au/functions/rss/calendar,ACTLAC
+8,ACT Legislative Assembly Daily Program,https://www.parliament.act.gov.au/in-the-assembly/daily_program,AU,"CBR,PARL",https://www.parliament.act.gov.au/functionality/rss/daily-program,ACTLADP
+9,ACT Legislative Assembly Matters of Public Importance ,https://www.parliament.act.gov.au/in-the-assembly/matters_of_public_importance,AU,"CBR,PARL",https://www.parliament.act.gov.au/functionality/rss/matters_of_public_importance,ACTLAMPI
+10,ACT Legislative Assembly Minutes of Proceedings,https://www.parliament.act.gov.au/in-the-assembly/minutes_of_proceedings,AU,"CBR,PARL",https://www.parliament.act.gov.au/functionality/rss/minutes-of-proceedings,ACTLAMP
+11,ACT Legislative Assembly Notice Papers,https://www.parliament.act.gov.au/in-the-assembly/notice_papers,AU,"CBR,PARL",https://www.parliament.act.gov.au/functionality/rss/notice-papers,ACTLANP
+12,ACT Magistrates Court Judgements,https://www.courts.act.gov.au/magistrates,AU,"CBR,LAW",https://www.courts.act.gov.au/magistrates/rss/judgments-rss,ACTMCJ
+13,ACT Magistrates Court Publications,https://www.courts.act.gov.au/magistrates,AU,"CBR,LAW",https://www.courts.act.gov.au/magistrates/rss/publications-rss,ACTMCP
+14,ACT Minister Media Releases,https://www.cmtedd.act.gov.au/open_government/inform/act_government_media_releases/latest_minister_media_releases,AU,"CBR,GOV",https://www.cmtedd.act.gov.au/open_government/functions/functionality/media_release_rss_feeds/latest_minister_media_releases_rss,ACTMMR
+15,ACT Policing Blog,https://policenews.act.gov.au/act-policing-blog,AU,"CBR,GOV",https://policenews.act.gov.au/feed/blog,ACTPB
+16,ACT Policing Community News,https://policenews.act.gov.au/news/community-news,AU,"CBR,GOV",https://policenews.act.gov.au/feed/community-news,ACTPCN
+17,ACT Policing Media Releases,https://policenews.act.gov.au/news/media-releases,AU,"CBR,GOV",https://policenews.act.gov.au/feed/media-releases,ACTPMR
+18,ACT Shelter,http://www.actshelter.net.au/,AU,CBR,http://www.actshelter.net.au/?format=feed&type=rss,ACTS
+19,ACT Supreme Court Judgements,https://www.courts.act.gov.au/supreme,AU,"CBR,LAW",https://www.courts.act.gov.au/supreme/rss/judgments-rss,ACTSCJ
+20,ACT Supreme Court Publications,https://www.courts.act.gov.au/supreme,AU,"CBR,LAW",https://www.courts.act.gov.au/supreme/rss/publications-rss,ACTSCP
+21,ANU CHELT,http://chelt.anu.edu.au/,AU,"CBR,EDU",http://chelt.anu.edu.au/rss.xml,ANU_CHELT
+22,ANU Centre for Aboriginal Economic Policy Research,http://caepr.cass.anu.edu.au/,AU,"CBR,EDU",http://caepr.cass.anu.edu.au/rss.xml,ANU_CAEPR
+23,ANU College of Arts and Social Sciences,https://cass.anu.edu.au/,AU,"CBR,EDU",https://cass.anu.edu.au/rss.xml,ANU_CASS
+24,ANU College of Asia and the Pacific,http://asiapacific.anu.edu.au,AU,"CBR,EDU",http://asiapacific.anu.edu.au/rss.xml,ANU_CAP
+25,ANU College of Engineering and Computer Science,https://cecs.anu.edu.au/,AU,"CBR,EDU",https://cecs.anu.edu.au/rss.xml,ANU_CECS
+26,ANU Computer Science Student Association,http://cs.club.anu.edu.au/,AU,"CBR,EDU",http://cs.club.anu.edu.au/?q=rss.xml,ANU_CSSA
+27,ANU Energy Change Institute,https://energy.anu.edu.au/,AU,"CBR,EDU",https://energy.anu.edu.au/rss.xml,ANU_ECI
+28,ANU Law Student's Society,http://www.anulss.com/,AU,"CBR,EDU",http://www.anulss.com/feed/,ANU_LSS
+29,ANU Mathematical Sciences Institute,https://maths.anu.edu.au/,AU,"CBR,EDU",https://maths.anu.edu.au/rss.xml,ANU_MSI
+30,ANU Medical School,https://medicalschool.anu.edu.au/,AU,"CBR,EDU",https://medicalschool.anu.edu.au/rss.xml,ANU_MS
+31,ANU Medical Student's Society,https://anumss.org/,AU,"CBR,EDU",https://anumss.org/feed/,ANU_MSS
+32,ANU Observer,https://anuobserver.org/,AU,"CBR,EDU",https://anuobserver.org/feed/,ANU_O
+33,ANU Press,https://press.anu.edu.au/,AU,"CBR,EDU",https://press.anu.edu.au/rss.xml,ANU_P
+34,ANU Research School of Earth Sciences,http://rses.anu.edu.au/,AU,"CBR,EDU",http://rses.anu.edu.au/rss.xml,ANU_RSES
+35,ANU School of Archaeology and Anthropology,http://archanth.cass.anu.edu.au/,AU,"CBR,EDU",http://archanth.cass.anu.edu.au/rss.xml,ANU_SAA
+36,ANU School of Art and Design,https://soad.cass.anu.edu.au/,AU,"CBR,EDU",https://soad.cass.anu.edu.au/rss.xml,ANU_SAD
+37,ANU School of Music,https://music.cass.anu.edu.au/,AU,"CBR,EDU",https://music.cass.anu.edu.au/rss.xml,ANU_SM
+38,ANU Students' Association,https://anusa.com.au/,AU ,"CBR,EDU",https://anusa.com.au/news/rss/6013/,ANU_SA
+39,ANU Union,http://www.anuunion.com.au/,AU,"CBR,EDU",http://www.anuunion.com.au/feed/,ANU_U
+40,Ainslie and Gorman Arts Centres,http://www.agac.com.au/,AU,"CBR,ART",http://www.agac.com.au/feed/,AGAC
+41,Band of Brothers Support Network,https://www.bandofbros.com.au/,AU,"CBR,MEN",https://www.bandofbros.com.au/feed/,BBSN
+42,Beaver Galleries,https://www.beavergalleries.com.au/,AU,"CBR,PUB",https://www.beavergalleries.com.au/feed/,BG
+43,CBR Canberra,https://canberra.com.au/,AU,"CBR,PUB",https://canberra.com.au/feed/,CBRC
+44,CIT Student Association,http://www.citsa.com.au/,AU,"CBR,EDU",http://www.citsa.com.au/feed/,CITSA
+45,Canberra Choral Society,https://canberrachoralsociety.org/,AU,"CBR,MUSIC",https://canberrachoralsociety.org/feed/,CCS
+46,Canberra Critics Circle,http://ccc-canberracriticscircle.blogspot.com/,AU,CBR,http://ccc-canberracriticscircle.blogspot.com/feeds/posts/default?alt=rss,CCC
+47,Canberra Film Blog,https://canberrafilmblog.com/,AU,"CBR,LIFE",https://canberrafilmblog.com/feed/,CFB
+48,Canberra Foodie's Adventures,https://foodpornjournal.com/,AU,"CBR,EPI",https://foodpornjournal.com/feed/,CFA
+49,Canberra Gay and Lesbian Qwire,https://www.canberraqwire.org.au/,AU,"CBR,MUSIC",https://www.canberraqwire.org.au/dbaction.php?action=rss&dbase=uploads,CGLQ
+50,Canberra Innovation Network,https://cbrin.com.au/,AU,"CBR,TECH",https://cbrin.com.au/feed/,CIN
+51,Canberra Institute of Technology,https://cit.edu.au/news,AU,"CBR,EDU",https://cit.edu.au/cit_rss_feed,CIT
+52,Canberra Jazz Blog,http://canberrajazz.blogspot.com/,AU,"CBR,MUSIC",http://canberrajazz.blogspot.com/feeds/posts/default,CJB
+53,Canberra Liberals,https://canberraliberals.org.au/,AU,"CBR,PARTY",https://canberraliberals.org.au/feed/,CL
+54,Canberra Philharmonic Society,http://philo.org.au/,AU,"CBR,MUSIC",http://philo.org.au/feed/,CPS
+55,Canberra Quilters Inc.,https://canberraquilters.org.au/,AU,"CBR,LIFE",https://canberraquilters.org.au/feed,CQI
+56,Canberra Symphony Orchestra,https://cso.org.au/,AU,"CBR,MUSIC",https://cso.org.au/feed/,CSO
+57,Canberra Theatre Centre,https://canberratheatrecentre.com.au/,AU ,"CBR,PUB",https://canberratheatrecentre.com.au/feed/,CTC
+58,Capital Football,https://capitalfootball.com.au/news/,AU,"CBR,SPORT",https://capitalfootball.com.au/feed/,CF
+59,City News,https://citynews.com.au/,AU,"CBR,NEWS",https://citynews.com.au/feed/,CN
+60,CrossFit Canberra,https://www.crossfitcanberra.net/blog,AU,"CBR,SPORT",https://www.crossfitcanberra.net/feed.xml,CFC
+61,Eat Canberra,http://eatcanberra.com.au/,AU,"CBR,EPI",http://eatcanberra.com.au/feed/,EC
+62,Enlighten Festival,https://enlightencanberra.com/,AU,CBR,https://enlightencanberra.com/feed/,EF
+63,Floriade,https://floriadeaustralia.com/,AU,CBR,https://floriadeaustralia.com/feed/,Floriade
+64,Griffin Accelerator,https://griffinaccelerator.com.au/,AU,"CBR,TECH",https://griffinaccelerator.com.au/feed/,GA
+65,Her Canberra,https://hercanberra.com.au/,AU,CBR,https://hercanberra.com.au/feed/,HC
+66,Kanga Cup,https://kangacup.com/news/,AU,"CBR,SPORT",https://kangacup.com/feed/,KC
+67,Life in Canberra,http://lifeincanberra.com.au/,AU,CBR,http://lifeincanberra.com.au/feed/,LC
+68,National Museum of Australia,https://www.nma.gov.au/,AU,"CBR,PUB",https://www.nma.gov.au/audio/itunes-rss,NMA
+69,National Zoo and Aquarium,https://nationalzoo.com.au/,AU,"CBR,PUB",https://nationalzoo.com.au/feed/,NZA
+70,Out in Canberra,https://www.outincanberra.com.au/,AU,CBR,https://www.outincanberra.com.au/feed/,OC
+71,So Frank,http://www.sofrank.com.au/,AU,"CBR,LIFE",http://www.sofrank.com.au/feed/,SF
+72,Spilt Milk,https://spilt-milk.com.au/,AU,"CBR,MUSIC",https://spilt-milk.com.au/feed/,SM
+73,Tennis Canberra,http://www.tenniscanberra.com.au/,AU,"CBR,SPORT",http://www.tenniscanberra.com.au/feed/,TC
+74,The Basement Canberra,https://www.thebasementcanberra.com.au/,AU,"CBR,MUSIC",https://www.thebasementcanberra.com.au/feed/,TBC
+75,The Healing Foundation,www.healingfoundation.org.au,AU,CBR,https://healingfoundation.org.au/feed/,THF
+76,The Q,https://theq.net.au/,AU,"CBR,ART",https://theq.net.au/home/feed/,TQ
+77,The Queanbeyan Age,https://www.queanbeyanagechronicle.com.au/,AU,"CBR,NEWS",https://www.queanbeyanagechronicle.com.au/rss.xml,TQA
+78,The Riot ACT,https://the-riotact.com/,AU,CBR,https://the-riotact.com/feed/,TRACT
+79,The Style Side Co,thestyleside.net,AU,"CBR,LIFE",https://www.thestyleside.net/feed.xml,TSSC
+80,Tourism ACT,https://tourism.act.gov.au/,AU,"CBR,GOV",https://tourism.act.gov.au/feed,TACT
+81,Travel and Beyond,https://travelandbeyond.org/blog/,AU,"CBR,LIFE",https://travelandbeyond.org/feed,TB
+82,University House,http://unihouse.anu.edu.au/,AU,"CBR,EDU",http://unihouse.anu.edu.au/feed/,UH
+83,Who Shoots,https://www.whoshoots.com/,AU,"CBR,LIFE",https://www.whoshoots.com/feed,WS
+84,Woodlands and Wetlands Trust,https://woodlandsandwetlands.org.au/,AU,CBR,https://woodlandsandwetlands.org.au/feed/,WWT
+85,Woroni,https://www.woroni.com.au/,AU,"CBR,EDU",https://www.woroni.com.au/feed/,Woroni
+86,Young Music Society,http://youngmusicsociety.org.au/,AU,"CBR,MUSIC",http://youngmusicsociety.org.au/feed/,YMS
+87,University of Canberra,http://www.canberra.edu.au/about-uc/media/newsroom,AU,"CBR,EDU",http://www.canberra.edu.au/config/monitor-landing-page-assets/rss-feeds,UC

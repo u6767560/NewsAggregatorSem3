@@ -1,0 +1,61 @@
+ACT
+Canberra
+New South Wales
+Broken Hill
+Central Coast
+Central West
+Coffs Coast
+Illawarra
+Mid North Coast
+New England North West
+Newcastle
+North Coast
+Riverina
+South East NSW
+Sydney
+Upper Hunter
+Western Plains
+Northern Territory
+Alice Springs
+Darwin
+Katherine
+Queensland
+Brisbane
+Capricornia
+Gold Coast
+Far North
+North Queensland
+North West Queensland
+Southern Queensland
+Sunshine Coast
+Tropical Queensland
+Western Queensland
+Wide Bay
+South Australia
+Adelaide
+North and West
+Riverland
+South East
+Eyre Peninsula
+Tasmania
+Hobart
+Northern Tasmania
+Victoria
+Ballarat
+Central Victoria
+Gippsland
+Goulburn Murray
+Melbourne
+Mildura-Swan Hill
+Shepparton
+South West Victoria
+Wimmera
+Western Australia
+Esperance
+Goldfields
+Great Southern
+Kimberley
+Mid West and Wheatbelt
+North West
+Perth
+South West

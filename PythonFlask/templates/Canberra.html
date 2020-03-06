@@ -1,0 +1,472 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>News Aggregator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="News Aggregation Website">
+    <meta name="author" content="">
+    <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- styles -->
+    <link rel="stylesheet" href="../static/assets/css/bootstrap_jkl.css" >
+    <link rel="stylesheet" href="../static/assets/css/bootstrap-responsive_jkl.css" >
+    <!-- <link rel="stylesheet" href="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="../static/assets/css/toolkit.css" > -->
+    <link rel="stylesheet" href="../static/assets/css/main.css" type="text/css" >
+
+    <!-- <link href="../static/assets/css/docs_jkl.css" rel="stylesheet"> -->
+    <!-- <link href="../static/assets/css/application.css" rel="stylesheet"> -->
+
+
+    <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'> -->
+
+    <!-- <link href="../static/assets/css/application.css" rel="stylesheet"> -->
+
+    <!-- <link href='http://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Dosis:400' rel='stylesheet' type='text/css'> -->
+    <!-- <link rel="stylesheet" rel = '../static/assets/css/w3.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="http://www.example.com/style.css?ts=<?=time()?>" /> -->
+    <script src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+
+    <script>
+//function domo(){
+
+//		}
+function showViaKeypress(element_id){
+	        $(".tain").css("display","none");
+	        // if multiple keys are pressed rapidly this will hide all but the last pressed key's div
+	        $(".tain").hide(1);
+	        $(element_id).fadeIn("slow");
+                }
+function showViaLink(array)
+{
+	array.each(function(i)
+	{
+		$(this).click(function()
+		{
+			var target = $(this).attr("href");
+			$(".tain").css("display","none");
+                        $(".tain").hide(1);
+                        $(target).fadeIn("slow");
+                        $('html').animate({scrollTop:0}, 'slow');//IE, FF
+                        $('body').animate({scrollTop:0}, 'slow');
+		});
+	});
+}
+</script>
+<script>
+  $(document).ready(function(){
+    domo()
+    $('a').click(function() {
+      $.post('http://jkl.io:8080/', {'data':this.getAttribute('href')});
+      return true;
+    });
+    $(".tain").css("display","none");
+    $(".news").css("display","block");
+    showViaLink($("ul#sectionnav a"));
+    $().UItoTop({ easingType: 'easeOutQuart' });
+  });
+</script>
+</head>
+<body class="preview" data-spy="scroll" data-target=".subnav" data-offset="50" style="
+    background-color: #f7f7f7;">
+
+  <!-- Navbar -->
+ <div class="navbar navbar-fixed-top">
+   <div class="navbar-inner">
+     <div class="container" style="background-color: cornflowerblue;">
+      <!-- <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </a>-->
+       <a class="brand" href = "Global.html">News Aggregator</a>
+       <div class="nav-collapse" id="main-menu">
+           <ul class="nav" id="sectionnav" style="background-color: cornflowerblue;">
+	 <li class="nav-item">
+        <a class="nav-link" href="Global.html" style="color: azure;"><u>G</u>lobal</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Australia.html" style="color: azure;"><u>A</u>ustralia</a>
+      </li>
+           <li class="nav-item">
+        <a class="nav-link" href="Canberra.html" style="color: azure;"><u>C</u>anberra</a>
+      </li>
+               <!--</ul>-->
+           <!--<ul class="nav" id="search_and_weather" style="background-color: #f7f7f7;float:right;">-->
+           <!-- DuckDuckGo Search -->
+                <a class="weatherwidget-io" href="https://forecast7.com/en/n35d31149d12/canberra/" data-label_1="CANBERRA" data-label_2="WEATHER" data-font="Marcellus" data-mode="Current" data-theme="original" data-basecolor=cornflowerblue data-suncolor="orange" style="/* overflow: hidden; *//* position: relative; *//* float: left; *//* padding-left: inherit; */transform: scale(0.6);height: 50px;width: 320px;display: block;padding: 0px;text-align: left;text-indent: -299rem;position: relative;float: left;/* margin-top: 0px; */top: -20px;left: -65px;">
+               </a>
+               <li class = "nav-item">
+           <form class="navbar-search" action="https://duckduckgo.com/">
+        <input type="text" name="q" class="search-query span2" placeholder="DDG search, / to focus" />
+	<input type="hidden" name="t"  style="float:right;" value=""/>
+           </form></li><li class="nav-item">
+
+
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script></li>
+	</ul>
+           <!-- In Site Search -->
+           <!--
+          <form class="form-inline float-right d-none d-md-flex">
+      <input id="searchKeyword"  class="form-control" type="text" data-action="grow" placeholder="Search">
+    </form>
+
+           <ul id="#js-popoverContent" class="nav navbar-nav float-right mr-0 d-none d-md-flex">
+      <li class="nav-item">
+        <a class="app-notifications nav-link" >
+          <span class="icon icon-arrow-right" onclick="searchNews()"></span>
+        </a>
+      </li>
+    </ul>
+                    -->
+	</div>
+
+     </div>
+   </div>
+ </div>
+
+<div class="container">
+<div class="row">
+
+
+    <div class = "col-sm-12">
+                    <div class="panel panel-warning " style="margin-top: 20px;background-color: #f7f7f7;color:#f7f7f7;border:none">
+                <div class="panel-heading" style="background-color: #f7f7f7;color:#f7f7f7; border:none">
+                    <h2 id="listTitle" class="post-list-title">CANBERRA NEWS</h2>
+                </div>
+                <div class="panel-body" style="background-color: #f7f7f7;color:#f7f7f7">
+                    <div class="list-group" id = "actTable" onload = "loadNews(1,'',0,'Canberra')">
+
+                    </div>
+
+
+                </div>
+
+                <ul id="change_page" class="pagination" align="center" style="background: cornflowerblue">
+                    <li id="pre" ><a onclick="loadNews(0)" style = "color: white">&laquo;</a></li>
+                    <li id="page_1" onclick="loadNews(1)"><a  href="#listTitle">1</a></li>
+                    <li id="page_2" onclick="loadNews(2)"><a  href="#listTitle">2</a></li>
+                    <li id="page_3" onclick="loadNews(3)"><a  href="#listTitle">3</a></li>
+                    <li id="page_4" onclick="loadNews(4)"><a  href="#listTitle">4</a></li>
+                    <li id="page_5" onclick="loadNews(5)"><a  href="#listTitle">5</a></li>
+                    <li id="page_6" onclick="loadNews(6)"><a  href="#listTitle">6</a></li>
+                    <li id="page_7" onclick="loadNews(7)"><a  href="#listTitle">7</a></li>
+                    <li id="page_8" onclick="loadNews(8)"><a  href="#listTitle">8</a></li>
+                    <li id="page_9" onclick="loadNews(9)"><a  href="#listTitle">9</a></li>
+                    <li id="next"><a onclick="loadNews(-1)" style = "color: white">&raquo;</a></li>
+                </ul>
+            </div>
+            </div>
+</div> <!-- /row  -->
+
+</div><!-- /container -->
+  <script type="text/javascript">
+      $(document).ready(
+          loadNews(window.location.href.split("listTitle")[1],"",0,"Canberra")
+        );
+        $('.img-responsive').on('click',function () {
+             console.log('as')
+          });
+  var temp = '../static/assets/image/arrow_static.png'
+  var share = '../static/assets/image/share.png'
+
+  function loadNews(page=1, keyword = "",reload=0, cate=""){
+            page = Number(page)
+             url= "test_get"
+             if (keyword == ""){
+                 if (reload == 1){
+                    $('#listTitle').text('Canberra News')
+                 }
+                 if (cate != ""){
+                    $('#listTitle').text(cate+' News')
+                 }
+             }else{
+                url= "search_news"
+             }
+
+             if (page == 0){
+                  page =  parseInt(localStorage.getItem('page'))
+                  page -= 1
+             }else if (page == -1){
+                  page = parseInt(localStorage.getItem('page'))
+                  page += 1
+             }
+             console.log(page)
+             data = {"page": page, "cate":cate}
+
+
+             var title = $('#listTitle').html()
+             if (keyword!= "" || title.substring(0, 19).indexOf("Search Result") != -1){
+                if (keyword == ""){
+                    keyword = title.substring(20,title.length-1)
+                }
+                url= "search_news"
+                data["keyword"]=  keyword
+             }else{
+                cate = title.split(' ')[0]
+                data["cate"] = cate
+             }
+
+             $.ajax({
+                url: url,
+                type: "get",
+                dataType: "text",
+                data:data,
+                success: function (data) {
+                    $("#actTable").empty();
+                    $("#change_page").empty();
+                    var jsonText = JSON.parse(data);
+                    var actResult = ""
+
+                    var current_page = page
+                    var max_page = Math.ceil(parseFloat(jsonText[0])/20)
+                    change_page = '<li id="pre" onclick="loadNews(0)"><a href="#listTitle'+(Number(current_page)-1)+'">&laquo;</a></li>'
+                    if (current_page >5 && current_page+5<max_page){
+                        for (var i =current_page-5;i<current_page+6;i++){
+                        change_page += '<li onclick="loadNews('+i+')"><a id="page_'+i+'" href="#listTitle'+i+'">'+i+'</a></li>'
+                    }
+                    }else if(current_page >5 && current_page+5>max_page){
+                        for (var i =current_page-5;i<max_page+1;i++){
+                        change_page += '<li onclick="loadNews('+i+')"><a id="page_'+i+'" href="#listTitle'+i+'">'+i+'</a></li>'
+                    }
+                    }else if(current_page <5 && current_page+5>max_page){
+                        for (var i = 1; i < max_page + 1; i++) {
+                            change_page += '<li onclick="loadNews(' + i + ')"><a id="page_' + i + '" href="#listTitle' + i + '">' + i + '</a></li>'
+                        }
+                    }else{
+                        for (var i = 1; i < 11; i++) {
+                            change_page += '<li onclick="loadNews(' + i + ')"><a id="page_' + i + '" href="#listTitle' + i + '">' + i + '</a></li>'
+                        }
+                    }
+                    change_page +=  '<li onclick="loadNews(-1)" id="next" ><a href="#listTitle'+(Number(current_page)+1)+'">&raquo;</a></li>'
+                    $('#change_page').append(change_page);
+
+                    for (var i = 1; i < jsonText.length; i++) {
+                        var score = Number(jsonText[i].timerank * 100).toFixed(1)
+                        var date_new = timestampToTime(parseInt(jsonText[i].publish_date)).slice(5)
+
+                        //img_url = "abc.png"
+                        //img_ref = "http://www.abc.net.au"
+                        txt_source = jsonText[i].source
+                        txt_title = jsonText[i].title
+                        // comment2(jsonText[i].news_id)
+                        score += "%"
+                        actResult +=
+                        '<div  class="list-group-item col-sm-12" style="padding:10px 15px 0px 15px;background-color: #f7f7f7;color:#f7f7f7;border:none">' +
+
+                            // '<a href="'+ img_ref +'">'+
+                            // '<img src="../static/assets/image/'+img_url+'" class="img-responsive" style="float:left;height:15px;padding-top: 2px;"></a>' +
+                            // '<div href="#" class="timeline-category-name">'+jsonText[i].category+'</div>'+
+
+                            // '<div href="#">'+
+                                '<div style="min-width:90px">'+
+                                '<a id="'+jsonText[i].news_id+'_l" href="https://twitter.com/search?q='+jsonText[i].title+'">'+
+
+                                '<img src="../static/assets/image/share.png" style="float:right;height:15px;padding-top: 5px"></a>'+
+
+                                '<img id="'+jsonText[i].news_id+'_a" src="'+temp+'"  onclick="comment_canberra(this)" style="float:right;height:25px;padding-top: 0px; margin-right:10px">'+
+
+
+                                '<p id="'+jsonText[i].news_id+'_approve_num" style="float:right;">'+jsonText[i].approve+'</p>' +
+
+                                '</div>'+
+                                '<h5 class="timeline-post-title">'+'<a href = "'+jsonText[i].url+'">' + jsonText[i].title +'</a>'+
+                                    '<em style="margin-left:20px">'+date_new+'</em>'+
+                                    '<em style="margin-left:20px">'+txt_source+'</em>'+
+
+                                //'<img id ="'+jsonText[i].news_id+'_b" src = "'+share+'" onclick = "sharenews(this)" style ="float:right;height:15px;padding-top: 0px">' +
+
+
+                            '</h5>'+
+
+
+                        '</div>'
+                    }
+                    $('#actTable').append(actResult);
+                    for (var i = 1; i <= max_page; i++) { // The 100 here is temporary
+                        target_page = "page_" + i;
+                        $("#" + target_page + "").css("color", "white");
+                        $("#" + target_page + "").css("background", "cornflowerblue");
+
+                    }
+                    target_page = "page_" + page;
+                    $("#" + target_page + "").css("background", "lightskyblue");
+                    localStorage.setItem('page',page);
+                    if (page == max_page){
+                        $('#next').removeAttr('onclick')
+                    }
+                    if (page == 1){
+                        $('#pre').removeAttr('onclick')
+                    }
+                },
+                error: function (data) {
+                    console.log("no News");
+                }
+            });
+            loadLatestNews()
+
+        }
+        function searchNews(){
+            if ($('#searchKeyword').val() == null || $('#searchKeyword').val() == ""){
+                alert("no keywords")
+            }else {
+                var keywords = $('#searchKeyword').val()
+                $('#listTitle').text('Search Results for "' + keywords + '"')
+                loadNews(1, keywords)
+            }
+        }
+
+        function searchontwitter(btn){
+
+            var id_comment = btn.getAttribute('id')
+            var id = id_comment.split('_')[0]
+            var comment = id_comment.split('_')[1]
+            $.ajax({
+                url: "comment",
+                type: "get",
+                dataType: "text",
+                data:{"news_id": parseInt(id), "comment_type":comment},
+                success: function (data) {
+                    var jsonText = JSON.parse(data)
+                        var picture = '#'+id+'_l'
+                        $(picture).attr('src', '../static/assets/image/arrow_ani.gif')
+                },
+                error: function (data) {
+                    console.log("service err");
+                }
+            });
+        }
+
+
+        function comment_canberra(btn){
+            var id_comment = btn.getAttribute('id')
+            var id = id_comment.split('_')[0]
+            var comment = id_comment.split('_')[1]
+            $.ajax({
+                url: "comment_canberra",
+                type: "get",
+                dataType: "text",
+                data:{"news_id": parseInt(id), "comment_type":comment},
+                success: function (data) {
+                    var jsonText = JSON.parse(data)
+                    // if (jsonText.status == 1){
+                        var app_num = '#'+id+'_approve_num'
+                        var picture = '#'+id+'_a'
+                        // var disapp_num = '#'+id+'_disapprove_num'
+                        $(app_num).html(jsonText.approve)
+                        $(picture).attr('src', '../static/assets/image/arrow_ani.gif')
+                        $(picture).css("height","25px")
+                        setTimeout(function () {
+                            $(picture).attr('src', '../static/assets/image/arrow_static.png')
+                        },1500)
+                    // }
+
+
+                },
+                error: function (data) {
+                    console.log("service err");
+                }
+
+            });
+        }
+
+        // function comment2(id){
+        //     $.ajax({
+        //         url: "comment2",
+        //         type: "get",
+        //         dataType: "text",
+        //         data:{"news_id": parseInt(id), "comment_type":"a"},
+        //         success: function (data) {
+        //             var jsonText = JSON.parse(data)
+        //                 var app_num = '#'+id+'_approve_num'
+        //                 $(app_num).html(jsonText.approve)
+        //         },
+        //         error: function (data) {
+        //             console.log("service err");
+        //         }
+        //     });
+        // }
+
+
+        function loadLatestNews(){
+             $.ajax({
+                url: "test_get_latest",
+                type: "get",
+                dataType: "text",
+                success: function (data) {
+                    $("#acTableLatest").empty();
+                    var jsonText = JSON.parse(data);
+                    var actResult = ""
+                    for (var i = 0; i < jsonText.length; i++) {
+                        var score = Number(jsonText[i].timerank)
+                        var date_new = timestampToTime(parseInt(jsonText[i].publish_date)-28800)
+                        actResult +=
+                        '<a href="'+jsonText[i].url+'" class="list-group-item col-sm-12">' +
+                        '<div href="#">'+
+                                '<h5 class="timeline-post-title">'+jsonText[i].title+'</h5>'+
+                            '</div>'+
+                            '<div class="timeline-post-info">'+
+                                '<div href="#" style="font-size:12px">Score: '+score+'</div>'+
+                                '<div href="#" style="font-size:12px">'+date_new+'</div>'+
+                         '</div>'
+
+                    }
+                    $('#acTableLatest').append(actResult);
+                },
+                error: function (data) {
+                    console.log("no News");
+                }
+            });
+        }
+
+
+        function timestampToTime(timestamp) {
+            var date = new Date((timestamp) * 1000);
+            // var now = new Date();
+            // var date_local = date.toLocaleString()
+            var Y = date.getFullYear() + '-';
+            var M = (date.getMonth()+1 < 10 ? '0'+(date.getMonth()+1) : date.getMonth()+1) + '-';
+            var D = date.getDate() + ' ';
+            var h = date.getHours() + ':';
+            var m = (date.getMinutes() < 10 ? '0'+(date.getMinutes()) : date.getMinutes());
+            var s =  (date.getSeconds() < 10 ? '0'+(date.getSeconds()) : date.getSeconds())
+            return Y+M+D+h+m;//+h+m+s;
+        }
+
+
+
+        $('.search-toggle').on('click', function(e){
+            e.preventDefault();
+            $('.search-bar').toggleClass('active');
+        });
+
+
+        $(function(){
+             var _width = $(window).width();
+             if(_width > 844){
+                 $("#brand").css("margin-top","10px");
+             }
+        });
+        </script>
+
+    <!-- .js afterload -->
+    <script src="./bootstrap.min.js"></script>
+    <script src="./jquery.hotkeys.js"></script>
+    <script src="./easing.js"></script>
+    <script src="./jquery.ui.totop.js"></script>
+
+
+
+</body></html>
