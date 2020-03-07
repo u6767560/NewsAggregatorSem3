@@ -9,7 +9,7 @@ Website of this semester: http://gpu.jkl.io:8080/
 
 ## Handover
 
-For Client Tom and further team members, the handover document is available here: [handover](https://github.com/zylaws1/NewsAggregatorSem3/tree/master/Documentshandover.md)
+For Client Tom and further team members, the handover document is available here: [handover](https://github.com/zylaws1/NewsAggregatorSem3/tree/master/Documents/handover.md)
 
 ## IP Progress：
 
@@ -18,6 +18,6 @@ For Client Tom and further team members, the handover document is available here
 ## Process Management
 
 Previously we dilevery management using trello, and in this semester we may going to try something new, our client Tom is working on that this week.
-pre-url: https://trello.com/b/vxJ6hSCv/news-aggregator-sem2
+[trello-url] (https://trello.com/b/vxJ6hSCv/news-aggregator-sem2)
 
 
