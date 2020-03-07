@@ -18,6 +18,6 @@ For Client Tom and further team members, the handover document is available here
 ## Process Management
 
 Previously we dilevery management using trello, and in this semester we may going to try something new, our client Tom is working on that this week.
-[trello-url] (https://trello.com/b/vxJ6hSCv/news-aggregator-sem2)
+[trello-url](https://trello.com/b/vxJ6hSCv/news-aggregator-sem2)
 
 
