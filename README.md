@@ -10,7 +10,7 @@ using dozens of traditional sources and thousands of primary sources including p
 using various machine learning models to aggregate based on importance and Location.
 
 ## Project Objective
-For this Semester,in view of the existing problems on  our old website, we will carry out further work to improve/build 
+For this Semester, in view of the existing problems on  our old website, we will carry out further work to improve/build 
 
 - the UI interface in the Frontend
 - Improve search function
@@ -39,14 +39,14 @@ For Client Tom and further team members, the handover document is available here
 
 [Decision Making](https://drive.google.com/open?id=167MVeWGAFKaetZ8DbrWOHA1qna42qtEa)
 
-[Teamwork](https://github.com/GeoZam/NewsAggregatorSem2/blob/master/Documents/Audit1/Teamwork.md)
+[Teamwork](to be updated)[to be updated]
 
 [Feedback](https://drive.google.com/drive/folders/1kL-cLC1EtM_DgsP3EY265xWjTWdxuax3?usp=sharing)
 
 
-[Current Burndown Chart (till week2)][to be updated]
+[Current Burndown Chart (till week2)]()[to be updated]
 
-[Current Gantt Chart (till week2)][to be updated]
+[Current Gantt Chart (till week2)]()[to be updated]
 
 </details>
 
